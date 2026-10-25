@@ -1,0 +1,13 @@
+name: Forge
+main: dev.forge.ForgePlugin
+version: 1.0
+api-version: '1.21'
+description: Admin GUI for custom weapons, armor, spheres, talismans, potions, TNT and traps
+commands:
+  forge:
+    description: Open the Forge menu (/forge trap ... for traps)
+    usage: /forge [trap|books|reload|stop]
+    permission: forge.admin
+permissions:
+  forge.admin:
+    default: op
